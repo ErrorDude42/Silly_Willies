@@ -1,0 +1,9 @@
+{
+  "advancements.get_raw_triangulum.title": "That\u0027s not a square",
+  "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
+  "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
+  "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
+  "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+  "block.silly_willy_core.triangulumore": "Triangulum Ore",
+  "item.silly_willy_core.raw_triangulum": "Raw Triangulum"
+}

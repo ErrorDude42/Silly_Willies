@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="silly_willy_core"
+version="0.0.3"
+displayName="Silly Willy Core"
+displayURL="https://mcreator.net"
+credits="Made by Crit"
+authors="Crit (J.V), Zomagon, P"
+description="This is the Core mod for the Silly Willies mc Server"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.silly_willy_core]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
