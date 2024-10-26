@@ -1,0 +1,145 @@
+{
+  "mod_elements": [
+    {
+      "name": "RawTriangulum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_triangulum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/item/raw_triangulum.json",
+          "src/main/java/io/github/errordude42/sillywillycore/item/RawTriangulumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RefinedTriangulum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_triangulum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/item/refined_triangulum.json",
+          "src/main/java/io/github/errordude42/sillywillycore/item/RefinedTriangulumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Triangulumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulumore.json",
+          "src/main/resources/data/silly_willy_core/forge/biome_modifier/triangulumore_biome_modifier.json",
+          "src/main/resources/data/silly_willy_core/worldgen/configured_feature/triangulumore.json",
+          "src/main/resources/assets/silly_willy_core/models/block/triangulumore.json",
+          "src/main/resources/assets/silly_willy_core/models/item/triangulumore.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumore.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreBlock.java",
+          "src/main/resources/data/silly_willy_core/worldgen/placed_feature/triangulumore.json"
+        ]
+      }
+    },
+    {
+      "name": "TriangulumoreDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulumore_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/silly_willy_core/models/item/triangulumore_deepslate.json",
+          "src/main/resources/data/silly_willy_core/loot_tables/blocks/triangulumore_deepslate.json",
+          "src/main/resources/assets/silly_willy_core/blockstates/triangulumore_deepslate.json",
+          "src/main/resources/assets/silly_willy_core/models/block/triangulumore_deepslate.json",
+          "src/main/java/io/github/errordude42/sillywillycore/block/TriangulumoreDeepslateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GeometeryDimensionBeta",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geometery_dimension_beta",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GetRawTriangulum",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_raw_triangulum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/advancements/get_raw_triangulum.json"
+        ]
+      }
+    },
+    {
+      "name": "Triangulumalter1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triangulumalter_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/silly_willy_core/loot_tables/chests/triangulumalter_1.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:TriangulumoreDeepslate",
+      "~CUSTOM:Triangulumore"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TriangulumoreDeepslate",
+      "~CUSTOM:Triangulumore"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.get_raw_triangulum.title": "That\u0027s not a square",
+      "advancements.get_raw_triangulum.descr": "Get Raw Triangulum",
+      "block.silly_willy_core.triangulumore_deepslate": "Triangulum Ore Deepslate",
+      "item_group.silly_willy_core.geometery_dimension_beta": "Geometery Dimension Beta",
+      "item.silly_willy_core.refined_triangulum": "Refined Triangulum",
+      "block.silly_willy_core.triangulumore": "Triangulum Ore",
+      "item.silly_willy_core.raw_triangulum": "Raw Triangulum"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "silly_willy_core",
+    "modName": "Silly Willy Core",
+    "version": "0.0.3",
+    "description": "This is the Core mod for the Silly Willies mc Server",
+    "author": "Crit (J.V), Zomagon, P",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made by Crit",
+    "modElementsPackage": "io.github.errordude42.sillywillycore"
+  },
+  "mcreatorVersion": 202400342716
+}
